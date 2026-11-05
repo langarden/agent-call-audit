@@ -1,0 +1,35 @@
+{
+  "_comment": "Example rule set for agent-call-audit (generic edition, no private rules).",
+  "capabilities": {
+    "data.lookup": { "description": "read-only data lookup", "action_types": ["read"] },
+    "content.publish": { "description": "publish prepared content", "action_types": ["read", "write", "outbound"] },
+    "money.transfer": { "description": "transfer within fence limits", "action_types": ["read", "spend"] }
+  },
+  "red_lines": [
+    {
+      "id": "DEMO-RL-001",
+      "description": "outbound transfer of restricted data is never allowed",
+      "action_types": ["outbound"],
+      "data_classes": ["restricted"]
+    },
+    {
+      "id": "DEMO-RL-002",
+      "description": "writing restricted data is never allowed",
+      "action_types": ["write"],
+      "data_classes": ["restricted"]
+    },
+    {
+      "id": "DEMO-RL-003",
+      "description": "single payment above the hard cap is never allowed",
+      "action_types": ["spend"],
+      "amount_gte": 100000.0
+    }
+  ],
+  "fence": {
+    "per_call": 500.0,
+    "per_day": 2000.0,
+    "per_month": 5000.0,
+    "currency": "CNY",
+    "units": 2
+  }
+}
