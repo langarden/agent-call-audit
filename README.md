@@ -2,6 +2,12 @@
 
 **A tiny, dependency-free guardrail layer for agent tool calls — with a tamper-evident audit trail.**
 
+<p align="center">
+  <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT">
+  <img src="https://img.shields.io/badge/tests-23-green" alt="23 tests">
+  <img src="https://img.shields.io/badge/dependencies-zero-green" alt="zero deps">
+</p>
+
 > ⚠️ This is the **generic, de-identified edition**. It contains no vendor-specific
 > rules, no private data and no personal identifiers. Rules ship as examples only.
 
@@ -85,6 +91,12 @@ rule engine runs locally, in a sandbox, or behind a gateway without change.
 * Non-goals: it does not execute the tool call, does not store payloads, does not
   replace your IAM, and does not decide business policy for you — you write the rules.
 * Security review is the user's responsibility before any production use.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for the ground rules (fail-closed first,
+no new dependencies, de-identified commits, tests green). Found a security issue?
+See [SECURITY.md](SECURITY.md).
 
 ## License
 
