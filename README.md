@@ -12,6 +12,8 @@
 > ⚠️ This is the **generic, de-identified edition**. It contains no vendor-specific
 > rules, no private data and no personal identifiers. Rules ship as examples only.
 
+[中文版](docs/README.zh-CN.md)
+
 ## Verifiable-agent family
 
 This engine is the first member of an open family that shares one fail-closed,
