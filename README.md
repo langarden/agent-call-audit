@@ -6,10 +6,23 @@
   <img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT">
   <img src="https://img.shields.io/badge/tests-23-green" alt="23 tests">
   <img src="https://img.shields.io/badge/dependencies-zero-green" alt="zero deps">
+  <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python 3.9+">
 </p>
 
 > ⚠️ This is the **generic, de-identified edition**. It contains no vendor-specific
 > rules, no private data and no personal identifiers. Rules ship as examples only.
+
+## Verifiable-agent family
+
+This engine is the first member of an open family that shares one fail-closed,
+audit-trail design language:
+
+| Repo | Role |
+|:--|:--|
+| **agent-call-audit** | audit **engine** for agent tool calls (this repo) |
+| [agent-memory-ledger](https://gitcode.com/gcw_MKhSyoGN/agent-memory-ledger) | verifiable **memory** layer |
+| [agent-audit-gateway](https://gitcode.com/gcw_MKhSyoGN/agent-audit-gateway) | HTTP **gateway** around the engine |
+| [agent-route-grid](https://gitcode.com/gcw_MKhSyoGN/agent-route-grid) | audited multi-agent **routing** |
 
 ---
 
