@@ -7,10 +7,13 @@
   <img src="https://img.shields.io/badge/tests-23-green" alt="23 tests">
   <img src="https://img.shields.io/badge/dependencies-zero-green" alt="zero deps">
   <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python 3.9+">
+  <img src="https://img.shields.io/badge/status-research%20prototype-orange" alt="research prototype">
 </p>
 
 > ⚠️ This is the **generic, de-identified edition**. It contains no vendor-specific
 > rules, no private data and no personal identifiers. Rules ship as examples only.
+>
+> *Research prototype / AI-assisted development.*
 
 [中文版](docs/README.zh-CN.md)
 
@@ -57,6 +60,8 @@ a third party can verify offline.
 ## Quick start
 
 ```bash
+pip install agent-call-audit                # zero deps, Python 3.9+
+
 python examples/demo.py                       # scripted walkthrough
 python -m unittest discover -s tests -t . -v  # 23 tests, no third-party deps
 ```
