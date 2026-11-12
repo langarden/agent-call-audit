@@ -1,3 +1,8 @@
+## v0.1.1 (2026-11-12)
+
+- Bump to v0.1.1 (patch) after DaChao R-01~R-04 remediation: sanitize-by-default (memory-ledger), LICENSE.audit_guard, docs/prototype badges.
+- Tests: 23 OK.
+
 # Changelog
 
 All notable changes to this project are documented here.
