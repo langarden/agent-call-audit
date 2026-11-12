@@ -15,6 +15,16 @@
 >
 > *Research prototype / AI-assisted development.*
 
+```bash
+pip install agent-call-audit          # zero deps, Python 3.9+
+```
+
+<a href="https://gitcode.com/gcw_MKhSyoGN/agent-call-audit"><img src="https://img.shields.io/badge/GitCode-gcw_MKhSyoGN%2Fagent-call-audit-blue" alt="GitCode"></a>
+<a href="https://github.com/langarden/agent-call-audit"><img src="https://img.shields.io/badge/GitHub-langarden%2Fagent-call-audit-black" alt="GitHub"></a>
+<img src="https://img.shields.io/badge/tests-23%20passed-green" alt="tests">
+<img src="https://img.shields.io/badge/license-MIT-yellow" alt="license">
+<img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python">
+
 [中文版](docs/README.zh-CN.md)
 
 ## Verifiable-agent family

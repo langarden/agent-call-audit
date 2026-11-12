@@ -3,6 +3,13 @@
 > **Agent 工具调用的极简、零依赖护栏层** —— 带可防篡改的审计留痕。
 > **默认拒绝（fail-closed）：任何不确定 → deny。**
 
+```bash
+pip install agent-call-audit          # 零依赖，Python 3.9+
+```
+
+<a href="https://gitcode.com/gcw_MKhSyoGN/agent-call-audit"><img src="https://img.shields.io/badge/GitCode-gcw_MKhSyoGN%2Fagent-call-audit-blue" alt="GitCode"></a>
+<a href="https://github.com/langarden/agent-call-audit"><img src="https://img.shields.io/badge/GitHub-langarden%2Fagent-call-audit-black" alt="GitHub"></a>
+
 ![License](https://img.shields.io/badge/license-MIT-blue)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Tests](https://img.shields.io/badge/tests-23%20passed-green)
